@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "pnpm install --no-frozen-lockfile && pnpm run build:client",
+  "buildCommand": "npm install --no-frozen-lockfile && pnpm run build:client",
   "outputDirectory": "dist/public",
   "functions": {
     "api/index.ts": {
